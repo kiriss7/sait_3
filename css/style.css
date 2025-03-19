@@ -10,6 +10,7 @@
 body {
     max-width: 1920px;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 :root {
@@ -31,7 +32,7 @@ body {
     display: flex;
     margin-top: 15px;
     justify-content: space-between;
-    height: 85px;
+    min-height: 85px;
 
 }
 
@@ -99,12 +100,13 @@ body {
     margin-top: -15px;
     background-image: url(img/BG\ _header.png);
     background-position: center;
+    background-repeat: no-repeat;
     height: 895px;
 
 }
 
 .text_foto {
-    width: 440px;
+    max-width:440px;
  height: 384px;
  padding-top: 179px;
 }
@@ -148,3 +150,40 @@ text-align: center;
 color: #fff;
 }
 a:link, a:visited, a:hover, a:active { color: #000000; text-decoration: none;}
+@media screen and (max-width: 1352px ) {
+    .navbar{
+        flex-direction: column;
+        padding: 0 20px 30px 20px;
+        align-items: center;
+        
+    }
+    .menu{
+        margin: 0 0 10px 0;
+        gap: 30px;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    .text_foto{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 474px ){
+    .menu{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .title_header{
+        font-size: 25px;
+    }
+    .text_header{
+        font-size: 15px;
+    }
+    .text_foto{
+        text-align: center;
+    }
+    .registrachia{
+        padding: auto 10px;
+    }
+}
