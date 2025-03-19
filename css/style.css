@@ -146,5 +146,5 @@ font-size: 20px;
 line-height: 125%;
 text-align: center;
 color: #fff;
-
 }
+a:link, a:visited, a:hover, a:active { color: #000000; text-decoration: none;}
