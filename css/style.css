@@ -359,7 +359,7 @@ color: #fff;
 
 
 }
-@media screen and (max-width: 1510px) {
+@media screen and (max-width: 1410px) {
     .navbar {
         flex-direction: column;
         padding: 0 20px 30px 20px;
@@ -465,10 +465,15 @@ color: #fff;
         .thrid_text_text{
             font-size: 15px;
         }
+        .img_icon_play{
+            width: 60px;
+        }
 
     }
     @media screen and (max-width:390px){
         .second_img_1_1_1{
             display: none;
         }
+        
+    
     }
