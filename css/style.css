@@ -18,7 +18,10 @@ body {
     --second-family: "Georgia", sans-serif;
     --third-family: "Avenir", sans-serif;
 }
-
+img{
+    user-select: none;
+    pointer-events: none;
+}
 .container {
     max-width: 1370px;
     width: 100%;
@@ -334,6 +337,10 @@ border-radius: 4px;
 width: 240px;
 height: 65px;
 }
+.third_text_botton:hover{
+    cursor: pointer;
+    background: #05d79b;
+}
 .third_text_botton_span {
     font-family: var(--font-family);
 font-weight: 400;
@@ -350,15 +357,16 @@ color: #fff;
     width: 100%;
     max-width: 895px;
     padding: 0 10px 0 10px;
+    pointer-events: none;
+
     
 }
 .img_icon_play {
     position: absolute;
     left: 45%;
     top: 45%;
-
-
 }
+.third_video{display: inline-block;}
 @media screen and (max-width: 1410px) {
     .navbar {
         flex-direction: column;
