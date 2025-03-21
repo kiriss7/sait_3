@@ -162,9 +162,10 @@ a:active {
 }
 
 
-/* second */
+/* Второй */
 .second {
     padding-top: 170px;
+    min-height: 1610px;
 }
 
 .its_work {
@@ -284,8 +285,81 @@ a:active {
 .second_grid_item_2 .second_grid_item_point {
     left: -30px;
 }
+/* Третий */
+.container_3{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1505px;
+}
+.third {
+    background-color:rgba(36, 88, 82, 1) ;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 922px;
+}
+.third_papa {
+    display: flex;
+    gap: 30px;
+    padding-top: 223px;
+    align-items: center;
 
-@media screen and (max-width: 1400px) {
+    
+}
+.third_text {
+    max-width: 580px;
+    padding: 0 10px 0 10px;
+}
+.thrid_text_title {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+color: #fff;
+padding-top: 8px;
+padding-bottom: 30px;
+}
+.thrid_text_text {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+color: #fff;
+padding-bottom: 55px;
+
+}
+.third_text_botton {
+    border: 1px solid #01996d;
+border-radius: 4px;
+    background-color: #01996d;;
+width: 240px;
+height: 65px;
+}
+.third_text_botton_span {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+color: #fff;
+}
+.third_media {
+    position: relative;
+}
+
+
+.third_img_video{
+    width: 100%;
+    max-width: 895px;
+    padding: 0 10px 0 10px;
+    
+}
+.img_icon_play {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+
+
+}
+@media screen and (max-width: 1510px) {
     .navbar {
         flex-direction: column;
         padding: 0 20px 30px 20px;
@@ -348,6 +422,13 @@ a:active {
         left: 0;
 
     }
+    .third_papa{
+        flex-direction: column;
+        text-align: center;
+    }
+    .thrid_text_title{
+        padding-top: 10px;
+    }
 }
     @media screen and (max-width: 474px) {
         .menu {
@@ -378,6 +459,13 @@ a:active {
             font-size: 15px;
 
         }
+        .thrid_text_title{
+            font-size: 30px;
+        }
+        .thrid_text_text{
+            font-size: 15px;
+        }
+
     }
     @media screen and (max-width:390px){
         .second_img_1_1_1{
